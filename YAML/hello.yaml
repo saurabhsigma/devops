@@ -1,0 +1,48 @@
+# this is a comment in yaml
+"apple" : "This is a red fruit"
+61: "This is saurabh's roll number."
+
+---
+# lists in yaml
+- apple
+- orange
+- guava
+- Apple
+
+---
+# yaml is case sensitive so apple and Apple are two different things.
+
+cities:
+ - delhi
+ - mumbai
+ - gujrat 
+#  or
+# cities: [new delhi, mumbai, gujrat]
+---
+# data types in yaml
+# string
+# there are 3 ways to declare and define a string:
+
+myself: saurabh singh
+fruit: "guava"
+job: 'swe'
+---
+
+# writing multi line string
+name: |
+my name is saurabh singh.
+and i am a good boy.
+---
+# writing a single line in multiple lines.
+method: >
+this will 
+look like multiple
+lines
+but it is not.
+---
+
+# same as 
+method: this will look like multiple lines but it is not.
+---
+
+...
