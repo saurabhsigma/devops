@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+    margin: 0; /* Ensures there is no default margin */
+    height: 100vh; /* Makes the body take full viewport height */
+    /* Centers content vertically */
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+
+
+}
+
+.main{
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;
+}
+
+.body {
+    text-align: center; 
+}
